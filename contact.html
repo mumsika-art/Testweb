@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>যোগাযোগ ও অফিশিয়াল সাপোর্ট | সরকার অনুমোদিত প্রধান কার্যালয়</title>
+  <meta name="description" content="ঢাকায় অবস্থিত আমাদের রেজিস্টার্ড রিক্রুটিং অফিসের সাথে সরাসরি যোগাযোগ করুন। অফিশিয়াল হটলাইন, হোয়াটসঅ্যাপ ডেস্ক, ইমেইল ও আবেদন চ্যানেল।">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="lang-bn">
+
+  <!-- TOPBAR -->
+  <aside class="topbar" aria-label="অফিশিয়াল এজেন্সি নোটিশ ও যোগাযোগ বার">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <span data-i18n="topbarHotline">হটলাইন:</span>
+          <a href="contact.html" data-config="phone" data-config-link="phone">+৮৮০ ২-৯৮৭৬৫৪৩</a>
+        </span>
+        <span class="topbar-item">
+          <span data-i18n="topbarEmail">ইমেইল:</span>
+          <a href="contact.html" data-config="email" data-config-link="email">info@globalmanpower.gov.bd</a>
+        </span>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-item">
+          <span class="topbar-badge">
+            <span data-i18n="topbarRl">আরএল নং:</span>
+            <strong data-config="rlNumber">আরএল-১২৩৪</strong>
+          </span>
+        </span>
+        <div class="lang-switch" role="group" aria-label="ভাষা নির্বাচন">
+          <button type="button" class="lang-btn" data-action="set-lang" data-lang="en">EN</button>
+          <button type="button" class="lang-btn active" data-action="set-lang" data-lang="bn">বাংলা</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN HEADER -->
+  <header class="main-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo-wrapper">
+        <img src="images/logo.svg" alt="এজেন্সি লোগো" class="logo-img" width="180" height="48">
+      </a>
+
+      <nav class="main-nav" aria-label="প্রধান মেনু">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link" data-i18n="navHome">হোম</a></li>
+          <li><a href="about.html" class="nav-link" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+          <li><a href="jobs.html" class="nav-link" data-i18n="navJobs">চাকরির খবর</a></li>
+          <li><a href="services.html" class="nav-link" data-i18n="navServices">সেবাসমূহ</a></li>
+          <li><a href="destinations.html" class="nav-link" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+          <li><a href="process.html" class="nav-link" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+          <li><a href="why-us.html" class="nav-link" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+          <li><a href="faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          <li><a href="transparency.html" class="nav-link" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+          <li><a href="contact.html" class="nav-link active" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="jobs.html" class="btn btn-accent btn-sm" data-i18n="navApplyNow">আবেদন করুন</a>
+        <button type="button" id="mobileMenuBtn" class="mobile-toggle-btn" aria-label="মোবাইল মেনু খুলুন" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobileNavBackdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobileNavDrawer" class="mobile-nav-drawer" role="dialog" aria-modal="true">
+    <div class="mobile-drawer-header">
+      <span class="mobile-drawer-title" data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</span>
+      <button type="button" id="mobileMenuCloseBtn" class="mobile-close-btn">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="nav-link" data-i18n="navHome">হোম</a></li>
+      <li><a href="about.html" class="nav-link" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+      <li><a href="jobs.html" class="nav-link" data-i18n="navJobs">চাকরির খবর</a></li>
+      <li><a href="services.html" class="nav-link" data-i18n="navServices">সেবাসমূহ</a></li>
+      <li><a href="destinations.html" class="nav-link" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+      <li><a href="process.html" class="nav-link" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+      <li><a href="why-us.html" class="nav-link" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+      <li><a href="success-stories.html" class="nav-link" data-i18n="navStories">সাফল্যের গল্প</a></li>
+      <li><a href="faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+      <li><a href="transparency.html" class="nav-link" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+      <li><a href="contact.html" class="nav-link active" data-i18n="navContact">যোগাযোগ</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <section style="background: linear-gradient(135deg, #0f1e36 0%, #1e293b 100%); color:#ffffff; padding:3.5rem 0;">
+      <div class="container">
+        <nav class="breadcrumb-bar" style="color:#94a3b8; margin-bottom:1rem;">
+          <a href="index.html" style="color:#cbd5e1;" data-i18n="navHome">হোম</a> &gt;
+          <span style="color:#ffffff;" data-i18n="navContact">যোগাযোগ</span>
+        </nav>
+        <h1 style="font-size:2.5rem; font-weight:800; margin-bottom:0.75rem;">অফিস ও অফিশিয়াল যোগাযোগ মাধ্যমসমূহ</h1>
+        <p style="color:#cbd5e1; font-size:1.1rem; max-width:680px;">
+          আমাদের লাইসেন্সপ্রাপ্ত ও রেজিস্টার্ড প্রধান কার্যালয়ে সরাসরি যোগাযোগ করুন। আমরা কোনো দালাল বা সাব-এজেন্টের মাধ্যমে কাজ করি না।
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        
+        <div class="contact-grid">
+          
+          <!-- Contact Details Column -->
+          <div>
+            <span class="section-badge">প্রধান কার্যালয়</span>
+            <h2 class="section-title" data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</h2>
+            
+            <div style="margin-bottom:1.5rem;">
+              <span class="trust-rl-display">আরএল নং: <span data-config="rlNumber">আরএল-১২৩৪</span></span>
+            </div>
+
+            <div style="display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2rem;">
+              
+              <!-- Address -->
+              <div style="display:flex; gap:1rem;">
+                <span style="font-size:1.3rem;">📍</span>
+                <div>
+                  <h3 style="font-size:1.05rem; font-weight:700; color:#0f1e36; margin-bottom:0.25rem;">নিবন্ধিত অফিস ঠিকানা</h3>
+                  <p style="color:#475569; font-size:0.95rem; line-height:1.6;" data-config="address">বাড়ি # ১২, রোড # ০৪, ব্লক # ডি, গুলশান-২, ঢাকা-১২১২, বাংলাদেশ</p>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div style="display:flex; gap:1rem;">
+                <span style="font-size:1.3rem;">📞</span>
+                <div>
+                  <h3 style="font-size:1.05rem; font-weight:700; color:#0f1e36; margin-bottom:0.25rem;">অফিশিয়াল হেল্পলাইন ও টেলিফোন</h3>
+                  <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                    হটলাইন: <a href="tel:+88029876543" data-config="phone" data-config-link="phone" style="font-weight:700; color:#0284c7;">+৮৮০ ২-৯৮৭৬৫৪৩</a><br>
+                    মোবাইল ডেস্ক: <a href="tel:+8801712345678" data-config="mobile" data-config-link="mobile" style="font-weight:600; color:#475569;">+৮৮০ ১৭১২-৩৪৫৬৭৮</a>
+                  </p>
+                </div>
+              </div>
+
+              <!-- WhatsApp -->
+              <div style="display:flex; gap:1rem;">
+                <span style="font-size:1.3rem;">💬</span>
+                <div>
+                  <h3 style="font-size:1.05rem; font-weight:700; color:#0f1e36; margin-bottom:0.25rem;">হোয়াটসঅ্যাপ রিক্রুটমেন্ট ডেস্ক</h3>
+                  <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                    <a href="https://wa.me/8801712345678" data-config-link="whatsapp" target="_blank" rel="noopener noreferrer" style="font-weight:700; color:#25D366;">হোয়াটসঅ্যাপে চ্যাট করুন (<span data-config="whatsapp">+৮৮০ ১৭১২-৩৪৫৬৭৮</span>)</a>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div style="display:flex; gap:1rem;">
+                <span style="font-size:1.3rem;">✉️</span>
+                <div>
+                  <h3 style="font-size:1.05rem; font-weight:700; color:#0f1e36; margin-bottom:0.25rem;">অফিশিয়াল ইমেইল ঠিকানা</h3>
+                  <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                    সাধারণ তথ্য: <a href="mailto:info@globalmanpower.gov.bd" data-config="email" data-config-link="email" style="font-weight:600; color:#0284c7;">info@globalmanpower.gov.bd</a><br>
+                    চাকরির আবেদন: <a href="mailto:jobs@globalmanpower.gov.bd" data-config="emailJobs" data-config-link="emailJobs" style="font-weight:600; color:#0284c7;">jobs@globalmanpower.gov.bd</a>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Hours -->
+              <div style="display:flex; gap:1rem;">
+                <span style="font-size:1.3rem;">⏰</span>
+                <div>
+                  <h3 style="font-size:1.05rem; font-weight:700; color:#0f1e36; margin-bottom:0.25rem;">অফিস কার্যক্রমের সময়সূচি</h3>
+                  <p style="color:#475569; font-size:0.95rem; line-height:1.6;" data-config="businessHours">শনিবার - বৃহস্পতিবার: সকাল ৯:০০ - সন্ধ্যা ৬:০০ (শুক্রবার বন্ধ)</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Direct Verification Button -->
+            <div>
+              <a href="https://bmet.gov.bd" target="_blank" rel="noopener noreferrer" data-config-link="licenseVerify" class="btn btn-outline" data-i18n="btnVerifyOnline">বিএমইটি সরকারি পোর্টালে লাইসেন্স যাচাই করুন</a>
+            </div>
+
+          </div>
+
+          <!-- Application & Map Column -->
+          <div>
+            <div style="background-color:#f8fafc; border:1px solid #e2e8f0; border-radius:16px; padding:2rem; margin-bottom:2rem;">
+              <h3 style="font-size:1.25rem; font-weight:700; color:#0f1e36; margin-bottom:0.75rem;">অফিশিয়াল আবেদন মাধ্যমসমূহ</h3>
+              <p style="color:#64748b; font-size:0.92rem; line-height:1.6; margin-bottom:1.5rem;">
+                আমাদের ওয়েবসাইটে প্রার্থীর কোনো ব্যক্তিগত তথ্য বা পাসওয়ার্ড ডাটাবেজে সংরক্ষণ করা হয় না। সরাসরি এবং নিরাপদে যোগাযোগের জন্য নিচের চ্যানেলগুলো ব্যবহার করুন:
+              </p>
+
+              <div style="display:flex; flex-direction:column; gap:1rem;">
+                <a href="#" data-config-link="googleForm" class="btn btn-primary btn-block">
+                  📝 অনলাইন প্রার্থী আবেদন ফর্ম পূরণ করুন
+                </a>
+                <a href="#" data-config-link="whatsapp" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block">
+                  💬 হোয়াটসঅ্যাপ রিক্রুটমেন্ট ডেস্কে বার্তা পাঠান
+                </a>
+                <a href="#" data-config-link="emailJobs" class="btn btn-secondary btn-block">
+                  ✉️ চাকরির ডেস্কে সিভি ও পাসপোর্ট ইমেইল করুন
+                </a>
+                <a href="#" data-config-link="phone" class="btn btn-outline btn-block">
+                  📞 প্রধান অফিসের টেলিফোনে সরাসরি কল করুন
+                </a>
+              </div>
+            </div>
+
+            <!-- Map View Link / Directions -->
+            <div style="background-color:#ffffff; border:1px solid #e2e8f0; border-radius:16px; padding:1.75rem; text-align:center;">
+              <h4 style="font-size:1.1rem; font-weight:700; color:#0f1e36; margin-bottom:0.5rem;">সরাসরি অফিসে আগমন</h4>
+              <p style="font-size:0.9rem; color:#64748b; margin-bottom:1.25rem;">
+                চাকরিপ্রার্থী ও বিদেশি নিয়োগকারী প্রতিনিধিগণ অফিস চলাকালীন সরাসরি আমাদের অফিসে আমন্ত্রিত। ট্রেড টেস্ট ও অফিসিয়াল বৈঠকের জন্য পূর্বে সময় নির্ধারণ করার অনুরোধ করা হচ্ছে।
+              </p>
+              <a href="#" data-config-link="googleMaps" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                🗺️ গুগল ম্যাপে অফিসের অবস্থান দেখুন
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col-about">
+        <h4 data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</h4>
+        <p data-i18n="footerDisclaimer">চাকরির প্রাপ্যতা, বেতন এবং শর্তাবলি নিয়োগকারী দেশের শ্রম আইন এবং কোম্পানির চাহিদাপত্রের ওপর নির্ভরশীল।</p>
+        <div class="footer-rl-badge">আরএল নং: <strong data-config="rlNumber">আরএল-১২৩৪</strong></div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footerLinksTitle">প্রয়োজনীয় লিংক</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html" data-i18n="navHome">হোম</a></li>
+          <li><a href="about.html" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+          <li><a href="jobs.html" data-i18n="navJobs">চাকরির খবর</a></li>
+          <li><a href="services.html" data-i18n="navServices">সেবাসমূহ</a></li>
+          <li><a href="destinations.html" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footerSupportTitle">প্রার্থী সহায়তা</h4>
+        <ul class="footer-links-list">
+          <li><a href="process.html" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+          <li><a href="why-us.html" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+          <li><a href="faq.html" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          <li><a href="transparency.html" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+          <li><a href="contact.html" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>আইন ও নীতিমালা</h4>
+        <ul class="footer-links-list">
+          <li><a href="privacy-policy.html">গোপনীয়তা নীতি</a></li>
+          <li><a href="terms.html">ব্যবহারের শর্তাবলি</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="currentYear">2026</span> <span data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</span>। <span data-i18n="footerRights">সর্বস্বত্ব সংরক্ষিত।</span></p>
+    </div>
+  </footer>
+
+  <a href="#" id="floatingWhatsAppBtn" class="floating-whatsapp" aria-label="হোয়াটসঅ্যাপ"><svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.062-2.18-.553-1.614-.668-2.67-2.316-2.75-2.423-.081-.106-.653-.872-.653-1.66 0-.789.412-1.177.558-1.336.146-.16.321-.2.428-.2.107 0 .214 0 .307.006.103.007.241-.039.376.287.144.348.49 1.196.533 1.284.043.088.072.19.014.305-.058.115-.087.187-.174.289-.088.102-.185.228-.264.306-.088.088-.18.183-.077.36.103.177.458.756.982 1.223.675.602 1.244.788 1.421.876.177.089.28.074.385-.047.105-.12.449-.523.57-.701.121-.178.241-.148.405-.088.164.06 1.042.492 1.22.58.178.089.297.133.34.208.043.076.043.438-.101.843z"/></svg></a>
+
+  <script src="js/config.js"></script>
+  <script src="js/jobs.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>

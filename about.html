@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমাদের সম্পর্কে | সরকারি অনুমোদিত রিক্রুটিং এজেন্সি</title>
+  <meta name="description" content="আমাদের নৈতিক নিয়োগ নীতিমালা, সরকারি লাইসেন্স এবং বিদেশে নিরাপদ কর্মসংস্থানে আমাদের প্রতিশ্রুতি সম্পর্কে জানুন।">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="lang-bn">
+
+  <!-- TOPBAR -->
+  <aside class="topbar" aria-label="অফিশিয়াল এজেন্সি নোটিশ ও যোগাযোগ বার">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <span data-i18n="topbarHotline">হটলাইন:</span>
+          <a href="contact.html" data-config="phone" data-config-link="phone">+৮৮০ ২-৯৮৭৬৫৪৩</a>
+        </span>
+        <span class="topbar-item">
+          <span data-i18n="topbarEmail">ইমেইল:</span>
+          <a href="contact.html" data-config="email" data-config-link="email">info@globalmanpower.gov.bd</a>
+        </span>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-item">
+          <span class="topbar-badge">
+            <span data-i18n="topbarRl">আরএল নং:</span>
+            <strong data-config="rlNumber">আরএল-১২৩৪</strong>
+          </span>
+        </span>
+        <div class="lang-switch" role="group" aria-label="ভাষা নির্বাচন">
+          <button type="button" class="lang-btn" data-action="set-lang" data-lang="en">EN</button>
+          <button type="button" class="lang-btn active" data-action="set-lang" data-lang="bn">বাংলা</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN HEADER -->
+  <header class="main-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo-wrapper">
+        <img src="images/logo.svg" alt="এজেন্সি লোগো" class="logo-img" width="180" height="48">
+      </a>
+
+      <nav class="main-nav" aria-label="প্রধান মেনু">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link" data-i18n="navHome">হোম</a></li>
+          <li><a href="about.html" class="nav-link active" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+          <li><a href="jobs.html" class="nav-link" data-i18n="navJobs">চাকরির খবর</a></li>
+          <li><a href="services.html" class="nav-link" data-i18n="navServices">সেবাসমূহ</a></li>
+          <li><a href="destinations.html" class="nav-link" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+          <li><a href="process.html" class="nav-link" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+          <li><a href="why-us.html" class="nav-link" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+          <li><a href="faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          <li><a href="transparency.html" class="nav-link" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+          <li><a href="contact.html" class="nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="jobs.html" class="btn btn-accent btn-sm" data-i18n="navApplyNow">আবেদন করুন</a>
+        <button type="button" id="mobileMenuBtn" class="mobile-toggle-btn" aria-label="মোবাইল মেনু খুলুন" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobileNavBackdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobileNavDrawer" class="mobile-nav-drawer" role="dialog" aria-modal="true">
+    <div class="mobile-drawer-header">
+      <span class="mobile-drawer-title" data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</span>
+      <button type="button" id="mobileMenuCloseBtn" class="mobile-close-btn">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="nav-link" data-i18n="navHome">হোম</a></li>
+      <li><a href="about.html" class="nav-link active" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+      <li><a href="jobs.html" class="nav-link" data-i18n="navJobs">চাকরির খবর</a></li>
+      <li><a href="services.html" class="nav-link" data-i18n="navServices">সেবাসমূহ</a></li>
+      <li><a href="destinations.html" class="nav-link" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+      <li><a href="process.html" class="nav-link" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+      <li><a href="why-us.html" class="nav-link" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+      <li><a href="success-stories.html" class="nav-link" data-i18n="navStories">সাফল্যের গল্প</a></li>
+      <li><a href="faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+      <li><a href="transparency.html" class="nav-link" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+      <li><a href="contact.html" class="nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <!-- Page Header Banner -->
+    <section style="background: linear-gradient(135deg, #0f1e36 0%, #1e293b 100%); color:#ffffff; padding:3.5rem 0;">
+      <div class="container">
+        <nav class="breadcrumb-bar" style="color:#94a3b8; margin-bottom:1rem;">
+          <a href="index.html" style="color:#cbd5e1;" data-i18n="navHome">হোম</a> &gt;
+          <span style="color:#ffffff;" data-i18n="navAbout">আমাদের সম্পর্কে</span>
+        </nav>
+        <h1 style="font-size:2.5rem; font-weight:800; margin-bottom:0.75rem;">আমাদের এজেন্সি সম্পর্কে</h1>
+        <p style="color:#cbd5e1; font-size:1.1rem; max-width:680px;">
+          স্বচ্ছ ও আইনসম্মত বৈদেশিক কর্মসংস্থান নিশ্চিত করতে আমরা সরকারি রিক্রুটিং লাইসেন্স এবং আন্তর্জাতিক শ্রমমান কঠোরভাবে অনুসরণ করি।
+        </p>
+      </div>
+    </section>
+
+    <!-- Core Profile Section -->
+    <section class="section">
+      <div class="container" style="display:grid; grid-template-columns:1.1fr 0.9fr; gap:3.5rem; align-items:start;">
+        <div>
+          <span class="section-badge">এজেন্সির পরিচিতি</span>
+          <h2 class="section-title">মর্যাদা ও সততার সাথে আন্তর্জাতিক কর্মসংস্থানের মেলবন্ধন</h2>
+          <p class="section-subtitle" style="margin-bottom:1.25rem;">
+            <strong data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</strong> একটি সরকার অনুমোদিত আন্তর্জাতিক রিক্রুটিং সংস্থা (রিক্রুটিং লাইসেন্স আরএল নং: <strong data-config="rlNumber">আরএল-১২৩৪</strong>)।
+          </p>
+          <p style="color:#475569; margin-bottom:1rem; line-height:1.7;">
+            আমাদের প্রধান লক্ষ্য হলো কারিগরি ট্রেড, ভারী শিল্প, নির্মাণ খাত, লজিস্টিকস, উৎপাদন শিল্প ও ফ্যাসিলিটি ম্যানেজমেন্টে দক্ষ, যোগ্য ও যাচাইকৃত জনশক্তি বিদেশে প্রেরণ করা। কর্মী শোষণ, গোপন খরচ কিংবা অবৈধ মধ্যস্বত্বভোগীদের ব্যাপারে আমাদের অবস্থান সম্পূর্ণ জিরো টলারেন্স।
+          </p>
+          <p style="color:#475569; margin-bottom:1.5rem; line-height:1.7;">
+            আমাদের প্রতিটি চাহিদাপত্র সংশ্লিষ্ট দেশের দূতাবাস ও শ্রম উইং কর্তৃক যথাযথভাবে সত্যায়িত হওয়ার পরই প্রার্থী বাছাই প্রক্রিয়া শুরু হয়। বিদেশ গমনের পূর্বে কর্মীরা তাদের চুক্তিপত্রের সকল শর্ত, বেতন, কাজের সময় ও অন্যান্য সুযোগ-সুবিধা সম্পর্কে সুস্পষ্টভাবে অবগত হন।
+          </p>
+
+          <div style="background-color:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:1.5rem; margin-bottom:2rem;">
+            <h3 style="font-size:1.15rem; color:#0f1e36; font-weight:700; margin-bottom:0.75rem;">সরকারি লাইসেন্স সংক্রান্ত তথ্য</h3>
+            <ul class="checklist">
+              <li><span class="check-icon">✓</span> <strong>রিক্রুটিং লাইসেন্স:</strong> <span data-config="rlNumber">আরএল-১২৩৪</span></li>
+              <li><span class="check-icon">✓</span> <strong>অনুমোদনকারী কর্তৃপক্ষ:</strong> <span data-config="licenseAuthority">প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয় / বিএমইটি</span></li>
+              <li><span class="check-icon">✓</span> <strong>প্রধান কার্যালয়:</strong> <span data-config="address">বাড়ি ১২, রোড ৫, গুলশান-২, ঢাকা-১২১২, বাংলাদেশ</span></li>
+            </ul>
+            <div style="margin-top:1.25rem;">
+              <a href="#" data-config-link="licenseVerify" class="btn btn-primary btn-sm" data-i18n="btnVerifyOnline">সরকারি পোর্টালে লাইসেন্স যাচাই</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="background-color:#ffffff; border:1px solid #e2e8f0; border-radius:16px; padding:2rem; box-shadow:0 4px 6px -1px rgba(0,0,0,0.05); margin-bottom:2rem;">
+            <h3 style="font-size:1.3rem; font-weight:700; color:#0f1e36; margin-bottom:1rem;">আমাদের লক্ষ্য ও মূল স্তম্ভ</h3>
+            
+            <div style="margin-bottom:1.5rem;">
+              <h4 style="font-size:1.05rem; font-weight:700; color:#d97706; margin-bottom:0.35rem;">১. নৈতিক উৎস ও কর্মী সংগ্রহ</h4>
+              <p style="font-size:0.92rem; color:#64748b; line-height:1.6;">কোনো ধরনের অবৈধ দালালি ছাড়া সরাসরি প্রকাশ্য বিজ্ঞপ্তি ও অনুমোদিত দক্ষতা কেন্দ্রের মাধ্যমে কর্মী নির্বাচন।</p>
+            </div>
+
+            <div style="margin-bottom:1.5rem;">
+              <h4 style="font-size:1.05rem; font-weight:700; color:#0284c7; margin-bottom:0.35rem;">২. শতভাগ স্পষ্ট চুক্তি</h4>
+              <p style="font-size:0.92rem; color:#64748b; line-height:1.6;">প্রকৃত বেতন, বাসস্থান, কাজের সময়, চিকিৎসা এবং আসা-যাওয়ার বিমান টিকিট সংক্রান্ত সুস্পষ্ট লিখিত চুক্তি।</p>
+            </div>
+
+            <div style="margin-bottom:1.5rem;">
+              <h4 style="font-size:1.05rem; font-weight:700; color:#059669; margin-bottom:0.35rem;">৩. প্রার্থীর কল্যাণ ও সুরক্ষা</h4>
+              <p style="font-size:0.92rem; color:#64748b; line-height:1.6;">বাধ্যতামূলক প্রাক-বহির্গমন ওরিয়েন্টেশন, শ্রম অধিকার শিক্ষা, জরুরি সহায়তা এবং দূতাবাসের সাথে সার্বক্ষণিক যোগাযোগ।</p>
+            </div>
+
+            <div>
+              <h4 style="font-size:1.05rem; font-weight:700; color:#475569; margin-bottom:0.35rem;">৪. সরকারি বিধিবিধান প্রতিপালন</h4>
+              <p style="font-size:0.92rem; color:#64748b; line-height:1.6;">ইমিগ্রেশন আইন, বিএমইটি স্মার্ট কার্ড ছাড়পত্র এবং সংশ্লিষ্ট দেশের দ্বিপাক্ষিক শ্রম চুক্তির কঠোর অনুসরণ।</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transparent Practices vs False Claims -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">স্বচ্ছতার অঙ্গীকার</span>
+          <h2 class="section-title">আমাদের অঙ্গীকার ও নীতিমালা</h2>
+          <p class="section-subtitle">আমরা অবাস্তব প্রতিশ্রুতির চেয়ে সততা ও বাস্তবতায় বিশ্বাসী।</p>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem;">
+          <div style="background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:12px; padding:2rem;">
+            <h3 style="color:#15803d; font-size:1.25rem; font-weight:700; margin-bottom:1rem;">আমরা যা নিশ্চিত করি</h3>
+            <ul class="checklist">
+              <li><span class="check-icon" style="color:#15803d;">✓</span> প্রকৃত চাহিদাপত্র ও সরকারি অনুমোদিত নিয়োগ প্রক্রিয়া।</li>
+              <li><span class="check-icon" style="color:#15803d;">✓</span> সকল বৈধ অফিসিয়াল ফির বিপরীতে এজেন্সির মানি রিসিট।</li>
+              <li><span class="check-icon" style="color:#15803d;">✓</span> ফ্লাইটের পূর্বে প্রার্থীকে নিয়োগ চুক্তিনামার স্পষ্ট কপি হস্তান্তর।</li>
+              <li><span class="check-icon" style="color:#15803d;">✓</span> কর্মক্ষেত্রের নিরাপত্তা ও সংশ্লিষ্ট দেশের আইন বিষয়ে প্রাক-বহির্গমন প্রশিক্ষণ।</li>
+            </ul>
+          </div>
+
+          <div style="background-color:#fef2f2; border:1px solid #fecaca; border-radius:12px; padding:2rem;">
+            <h3 style="color:#b91c1c; font-size:1.25rem; font-weight:700; margin-bottom:1rem;">আমরা যা কখনোই করি না</h3>
+            <ul class="checklist">
+              <li><span class="check-icon" style="color:#b91c1c;">✕</span> আমরা কোনো 'জরুরি ভিসা' বা '১০০% নিশ্চিত চাকরির' মিথ্যা প্রলোভন দিই না।</li>
+              <li><span class="check-icon" style="color:#b91c1c;">✕</span> ব্যক্তিগত মোবাইল ব্যাংকিং বা অজ্ঞাত দালালের মাধ্যমে অর্থ লেনদেন করি না।</li>
+              <li><span class="check-icon" style="color:#b91c1c;">✕</span> অনুমোদন ছাড়া প্রার্থীর পাসপোর্ট বা ভ্রমণ নথি আটকে রাখি না।</li>
+              <li><span class="check-icon" style="color:#b91c1c;">✕</span> বিদেশে কোনো ভুয়া কোম্পানি বা অস্বীকৃত প্রতিষ্ঠানে কর্মী পাঠাই না।</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section style="background-color:#0f1e36; color:#ffffff; padding:3.5rem 0; text-align:center;">
+      <div class="container">
+        <h2 style="font-size:2rem; font-weight:700; margin-bottom:1rem;">আমাদের কার্যক্রম সম্পর্কে কোনো প্রশ্ন আছে?</h2>
+        <p style="color:#cbd5e1; margin-bottom:1.75rem;">আমাদের অফিশিয়াল হটলাইনে ফোন করুন অথবা অফিস চলাকালীন সরাসরি আমাদের কার্যালয়ে আসুন।</p>
+        <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-accent" data-i18n="btnContactUs">অফিসে যোগাযোগ</a>
+          <a href="jobs.html" class="btn btn-outline-white" data-i18n="btnViewJobs">বর্তমান চাকরির খবর</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col-about">
+        <h4 data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</h4>
+        <p data-i18n="footerDisclaimer">চাকরির প্রাপ্যতা, বেতন এবং শর্তাবলি নিয়োগকারী দেশের শ্রম আইন এবং কোম্পানির চাহিদাপত্রের ওপর নির্ভরশীল।</p>
+        <div class="footer-rl-badge">আরএল নং: <strong data-config="rlNumber">আরএল-১২৩৪</strong></div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footerLinksTitle">প্রয়োজনীয় লিংক</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html" data-i18n="navHome">হোম</a></li>
+          <li><a href="about.html" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+          <li><a href="jobs.html" data-i18n="navJobs">চাকরির খবর</a></li>
+          <li><a href="services.html" data-i18n="navServices">সেবাসমূহ</a></li>
+          <li><a href="destinations.html" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footerSupportTitle">প্রার্থী সহায়তা</h4>
+        <ul class="footer-links-list">
+          <li><a href="process.html" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+          <li><a href="why-us.html" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+          <li><a href="faq.html" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          <li><a href="transparency.html" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+          <li><a href="contact.html" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>আইন ও নীতিমালা</h4>
+        <ul class="footer-links-list">
+          <li><a href="privacy-policy.html">গোপনীয়তা নীতি</a></li>
+          <li><a href="terms.html">ব্যবহারের শর্তাবলি</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="currentYear">2026</span> <span data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</span>। <span data-i18n="footerRights">সর্বস্বত্ব সংরক্ষিত।</span></p>
+    </div>
+  </footer>
+
+  <a href="#" id="floatingWhatsAppBtn" class="floating-whatsapp" aria-label="হোয়াটসঅ্যাপ"><svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.062-2.18-.553-1.614-.668-2.67-2.316-2.75-2.423-.081-.106-.653-.872-.653-1.66 0-.789.412-1.177.558-1.336.146-.16.321-.2.428-.2.107 0 .214 0 .307.006.103.007.241-.039.376.287.144.348.49 1.196.533 1.284.043.088.072.19.014.305-.058.115-.087.187-.174.289-.088.102-.185.228-.264.306-.088.088-.18.183-.077.36.103.177.458.756.982 1.223.675.602 1.244.788 1.421.876.177.089.28.074.385-.047.105-.12.449-.523.57-.701.121-.178.241-.148.405-.088.164.06 1.042.492 1.22.58.178.089.297.133.34.208.043.076.043.438-.101.843z"/></svg></a>
+
+  <script src="js/config.js"></script>
+  <script src="js/jobs.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>
