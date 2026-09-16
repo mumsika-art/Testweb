@@ -1,0 +1,6 @@
+{
+  "name": "Overseas Manpower & Recruitment Agency",
+  "description": "A production-grade, bilingual, static international manpower recruitment agency website built with pure HTML5, CSS3, and vanilla JavaScript for GitHub Pages deployment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>কাজের প্রক্রিয়া | রিক্রুটমেন্ট ও বিদেশযাত্রা ধাপসমূহ | লাইসেন্সপ্রাপ্ত এজেন্সি</title>
+  <meta name="description" content="ধাপে ধাপে নিরাপদ কর্মসংস্থানের যাত্রা: চাহিদাপত্র সত্যায়ন, কারিগরি দক্ষতা পরীক্ষা, মেডিকেল ক্লিয়ারেন্স, ভিসা প্রসেসিং ও বিদেশযাত্রাপূর্ব ওরিয়েন্টেশন।">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="lang-bn">
+
+  <!-- TOPBAR -->
+  <aside class="topbar" aria-label="অফিশিয়াল এজেন্সি নোটিশ ও যোগাযোগ বার">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <span data-i18n="topbarHotline">হটলাইন:</span>
+          <a href="contact.html" data-config="phone" data-config-link="phone">+৮৮০ ২-৯৮৭৬৫৪৩</a>
+        </span>
+        <span class="topbar-item">
+          <span data-i18n="topbarEmail">ইমেইল:</span>
+          <a href="contact.html" data-config="email" data-config-link="email">info@globalmanpower.gov.bd</a>
+        </span>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-item">
+          <span class="topbar-badge">
+            <span data-i18n="topbarRl">আরএল নং:</span>
+            <strong data-config="rlNumber">আরএল-১২৩৪</strong>
+          </span>
+        </span>
+        <div class="lang-switch" role="group" aria-label="ভাষা নির্বাচন">
+          <button type="button" class="lang-btn" data-action="set-lang" data-lang="en">EN</button>
+          <button type="button" class="lang-btn active" data-action="set-lang" data-lang="bn">বাংলা</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN HEADER -->
+  <header class="main-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo-wrapper">
+        <img src="images/logo.svg" alt="এজেন্সি লোগো" class="logo-img" width="180" height="48">
+      </a>
+
+      <nav class="main-nav" aria-label="প্রধান মেনু">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link" data-i18n="navHome">হোম</a></li>
+          <li><a href="about.html" class="nav-link" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+          <li><a href="jobs.html" class="nav-link" data-i18n="navJobs">চাকরির খবর</a></li>
+          <li><a href="services.html" class="nav-link" data-i18n="navServices">সেবাসমূহ</a></li>
+          <li><a href="destinations.html" class="nav-link" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+          <li><a href="process.html" class="nav-link active" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+          <li><a href="why-us.html" class="nav-link" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+          <li><a href="faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          <li><a href="transparency.html" class="nav-link" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+          <li><a href="contact.html" class="nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="jobs.html" class="btn btn-accent btn-sm" data-i18n="navApplyNow">আবেদন করুন</a>
+        <button type="button" id="mobileMenuBtn" class="mobile-toggle-btn" aria-label="মোবাইল মেনু খুলুন" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobileNavBackdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobileNavDrawer" class="mobile-nav-drawer" role="dialog" aria-modal="true">
+    <div class="mobile-drawer-header">
+      <span class="mobile-drawer-title" data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</span>
+      <button type="button" id="mobileMenuCloseBtn" class="mobile-close-btn">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="nav-link" data-i18n="navHome">হোম</a></li>
+      <li><a href="about.html" class="nav-link" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+      <li><a href="jobs.html" class="nav-link" data-i18n="navJobs">চাকরির খবর</a></li>
+      <li><a href="services.html" class="nav-link" data-i18n="navServices">সেবাসমূহ</a></li>
+      <li><a href="destinations.html" class="nav-link" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+      <li><a href="process.html" class="nav-link active" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+      <li><a href="why-us.html" class="nav-link" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+      <li><a href="faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+      <li><a href="transparency.html" class="nav-link" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+      <li><a href="contact.html" class="nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <section style="background: linear-gradient(135deg, #0f1e36 0%, #1e293b 100%); color:#ffffff; padding:3.5rem 0;">
+      <div class="container">
+        <nav class="breadcrumb-bar" style="color:#94a3b8; margin-bottom:1rem;">
+          <a href="index.html" style="color:#cbd5e1;" data-i18n="navHome">হোম</a> &gt;
+          <span style="color:#ffffff;" data-i18n="navProcess">কাজের প্রক্রিয়া</span>
+        </nav>
+        <h1 style="font-size:2.5rem; font-weight:800; margin-bottom:0.75rem;">রিক্রুটমেন্ট ও বিদেশযাত্রার ৭টি ধাপ</h1>
+        <p style="color:#cbd5e1; font-size:1.1rem; max-width:680px;">
+          আমাদের সুনির্দিষ্ট ও আইনানুগ কর্মপদ্ধতি প্রতিটি প্রার্থীর জন্য সম্পূর্ণ নিরাপদ, স্বচ্ছ ও সরকারি অনুমোদন নিশ্চিত করে।
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        
+        <div style="display:flex; flex-direction:column; gap:2rem; max-width:860px; margin:0 auto;">
+
+          <!-- Step 1 -->
+          <div style="display:flex; gap:1.5rem; background-color:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:1.75rem; box-shadow:0 2px 4px rgba(0,0,0,0.03);">
+            <div style="font-size:1.5rem; font-weight:800; color:#0284c7; min-width:48px; height:48px; background-color:#f0f9ff; border-radius:8px; display:flex; align-items:center; justify-content:center;">০১</div>
+            <div>
+              <h2 style="font-size:1.25rem; font-weight:700; color:#0f1e36; margin-bottom:0.4rem;">চাহিদাপত্র যাচাই ও দূতাবাস সত্যায়ন</h2>
+              <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                প্রতিটি পদের নিয়োগ প্রক্রিয়া শুরু হয় বিদেশি নিয়োগকর্তার সত্যায়িত ডিম্যান্ড লেটার, পাওয়ার অব অ্যাটর্নি এবং কাজের চুক্তিপত্রের মাধ্যমে। এই কাগজপত্র সংশ্লিষ্ট দেশে বাংলাদেশ দূতাবাস / শ্রম উইং কর্তৃক যাচাইকৃত এবং বিএমইটি (BMET) থেকে অনুমোদন সাপেক্ষে প্রকাশ করা হয়।
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div style="display:flex; gap:1.5rem; background-color:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:1.75rem; box-shadow:0 2px 4px rgba(0,0,0,0.03);">
+            <div style="font-size:1.5rem; font-weight:800; color:#0284c7; min-width:48px; height:48px; background-color:#f0f9ff; border-radius:8px; display:flex; align-items:center; justify-content:center;">০২</div>
+            <div>
+              <h2 style="font-size:1.25rem; font-weight:700; color:#0f1e36; margin-bottom:0.4rem;">উন্মুক্ত বিজ্ঞপ্তি প্রকাশ ও আবেদন গ্রহণ</h2>
+              <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                অনুমোদিত শূন্যপদের বিজ্ঞপ্তি সরাসরি আমাদের ওয়েবসাইট, অফিস নোটিশ বোর্ড এবং সরকারিভাবে অনুমোদিত মাধ্যমে প্রকাশ করা হয়। প্রার্থীরা গুগল ফর্ম, অফিশিয়াল হোয়াটসঅ্যাপ ডেস্ক অথবা সরাসরি অফিসে এসে আবেদন করতে পারেন। কোনো মধ্যস্বত্বভোগী বা দালালের স্থান নেই।
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div style="display:flex; gap:1.5rem; background-color:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:1.75rem; box-shadow:0 2px 4px rgba(0,0,0,0.03);">
+            <div style="font-size:1.5rem; font-weight:800; color:#0284c7; min-width:48px; height:48px; background-color:#f0f9ff; border-radius:8px; display:flex; align-items:center; justify-content:center;">০৩</div>
+            <div>
+              <h2 style="font-size:1.25rem; font-weight:700; color:#0f1e36; margin-bottom:0.4rem;">কাগজপত্র যাচাই ও কারিগরি দক্ষতা পরীক্ষা (ট্রেড টেস্ট)</h2>
+              <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                আমাদের মূল্যায়নকারী দল প্রার্থীর পাসপোর্ট বৈধতা, বয়স এবং পূর্ববর্তী কাজের অভিজ্ঞতা যাচাই করে। কারিগরি পেশার জন্য (ওয়েল্ডার, ইলেকট্রিশিয়ান, মেকানিক, মেশিনিস্ট) সরকার অনুমোদিত টেকনিক্যাল ট্রেনিং সেন্টার বা নিজস্ব টেস্ট সেন্টারে বাস্তব দক্ষতা পরীক্ষা নেওয়া হয়।
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div style="display:flex; gap:1.5rem; background-color:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:1.75rem; box-shadow:0 2px 4px rgba(0,0,0,0.03);">
+            <div style="font-size:1.5rem; font-weight:800; color:#0284c7; min-width:48px; height:48px; background-color:#f0f9ff; border-radius:8px; display:flex; align-items:center; justify-content:center;">০৪</div>
+            <div>
+              <h2 style="font-size:1.25rem; font-weight:700; color:#0f1e36; margin-bottom:0.4rem;">নিয়োগকর্তার সাথে সরাসরি সাক্ষাৎকার ও প্রাথমিক নির্বাচন</h2>
+              <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                বিদেশি নিয়োগকারী প্রতিনিধি দলের উপস্থিতিতে সরাসরি কিংবা আধুনিক ভিডিও কনফারেন্সের মাধ্যমে প্রার্থীদের সাক্ষাৎকার গ্রহণ করা হয়। নির্বাচিত প্রার্থীদের পদবি, মূল বেতন, কর্মঘণ্টা ও সুযোগ-সুবিধা স্পষ্টভাবে উল্লেখ করে আনুষ্ঠানিক সিলেকশন লেটার দেওয়া হয়।
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div style="display:flex; gap:1.5rem; background-color:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:1.75rem; box-shadow:0 2px 4px rgba(0,0,0,0.03);">
+            <div style="font-size:1.5rem; font-weight:800; color:#0284c7; min-width:48px; height:48px; background-color:#f0f9ff; border-radius:8px; display:flex; align-items:center; justify-content:center;">০৫</div>
+            <div>
+              <h2 style="font-size:1.25rem; font-weight:700; color:#0f1e36; margin-bottom:0.4rem;">অনুমোদিত মেডিকেল পরীক্ষা ও বায়োমেট্রিক নিবন্ধন</h2>
+              <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                নির্বাচিত প্রার্থীদের গন্তব্য দেশের আইন অনুযায়ী অনুমোদিত মেডিকেল সেন্টার (যেমন উপসাগরীয় দেশসমূহের জন্য গামকা/GAMCA বা মালয়েশিয়ার জন্য ফোমেমা/FOMEMA) থেকে স্বাস্থ্য ফিটনেস সনদ গ্রহণ ও বায়োমেট্রিক রেজিস্ট্রেশন সম্পন্ন করতে হয়।
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div style="display:flex; gap:1.5rem; background-color:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:1.75rem; box-shadow:0 2px 4px rgba(0,0,0,0.03);">
+            <div style="font-size:1.5rem; font-weight:800; color:#0284c7; min-width:48px; height:48px; background-color:#f0f9ff; border-radius:8px; display:flex; align-items:center; justify-content:center;">০৬</div>
+            <div>
+              <h2 style="font-size:1.25rem; font-weight:700; color:#0f1e36; margin-bottom:0.4rem;">ভিসা স্ট্যাম্পিং ও বিএমইটি ইমিগ্রেশন ক্লিয়ারেন্স</h2>
+              <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                নিয়োগকারী দেশ থেকে বৈধ ইলেকট্রনিক ভিসা বা ওয়ার্ক পারমিট প্রাপ্তির পর বিএমইটি (BMET)-এর কাছে বাধ্যতামূলক ইমিগ্রেশন ছাড়পত্র স্মার্ট কার্ড এবং ওয়েজ আর্নার্স কল্যাণ তহবিল বীমার জন্য প্রয়োজনীয় কাগজপত্র দাখিল ও অনুমোদন সম্পন্ন করা হয়।
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 7 -->
+          <div style="display:flex; gap:1.5rem; background-color:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:1.75rem; box-shadow:0 2px 4px rgba(0,0,0,0.03);">
+            <div style="font-size:1.5rem; font-weight:800; color:#059669; min-width:48px; height:48px; background-color:#ecfdf5; border-radius:8px; display:flex; align-items:center; justify-content:center;">০৭</div>
+            <div>
+              <h2 style="font-size:1.25rem; font-weight:700; color:#0f1e36; margin-bottom:0.4rem;">বিদেশযাত্রাপূর্ব ব্রিফিং (পিডিও) ও নিরাপদ ফ্লাইট যাত্রা</h2>
+              <p style="color:#475569; font-size:0.95rem; line-height:1.6;">
+                বিমানে ওঠার পূর্বে প্রার্থীদের অভিবাসী অধিকার, কর্মক্ষেত্রের নিরাপত্তা, প্রবাসী জরুরি সেবা হটলাইন ও বিমানবন্দর প্রক্রিয়া সম্পর্কে বিস্তারিত ব্রিফিং প্রদান করা হয়। এয়ার টিকিট হস্তান্তর ও সংশ্লিষ্ট দেশে কোম্পানি রিসিভিং নিশ্চিত করা হয়।
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Timeline Variance Disclosure -->
+        <div style="margin-top:3.5rem; background-color:#fefce8; border:1px solid #fef08a; border-radius:12px; padding:2rem; max-width:860px; margin-left:auto; margin-right:auto;">
+          <h3 style="color:#854d0e; font-size:1.15rem; font-weight:700; margin-bottom:0.5rem;">নিয়োগ ও প্রক্রিয়াকরণ সময়সীমা সংক্রান্ত স্পষ্ট নোটিশ</h3>
+          <p style="color:#713f12; font-size:0.92rem; line-height:1.6;">
+            দেশভেদে এবং সংশ্লিষ্ট দূতাবাস ও মেডিকেল ক্লিয়ারেন্সের সময়ের ওপর ভিত্তি করে সমগ্র প্রক্রিয়ায় সাধারণত ৪৫ থেকে ৯০ দিন সময় প্রয়োজন হয়। আমরা কোনো ধরনের অবাস্তব বা প্রতারণামূলক "৭ দিনে ভিসা"র মিথ্যা প্রতিশ্রুতি দেই না।
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col-about">
+        <h4 data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</h4>
+        <p data-i18n="footerDisclaimer">চাকরির প্রাপ্যতা, বেতন এবং শর্তাবলি নিয়োগকারী দেশের শ্রম আইন এবং কোম্পানির চাহিদাপত্রের ওপর নির্ভরশীল।</p>
+        <div class="footer-rl-badge">আরএল নং: <strong data-config="rlNumber">আরএল-১২৩৪</strong></div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footerLinksTitle">প্রয়োজনীয় লিংক</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html" data-i18n="navHome">হোম</a></li>
+          <li><a href="about.html" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+          <li><a href="jobs.html" data-i18n="navJobs">চাকরির খবর</a></li>
+          <li><a href="services.html" data-i18n="navServices">সেবাসমূহ</a></li>
+          <li><a href="destinations.html" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footerSupportTitle">প্রার্থী সহায়তা</h4>
+        <ul class="footer-links-list">
+          <li><a href="process.html" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+          <li><a href="why-us.html" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+          <li><a href="faq.html" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          <li><a href="transparency.html" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+          <li><a href="contact.html" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>আইন ও নীতিমালা</h4>
+        <ul class="footer-links-list">
+          <li><a href="privacy-policy.html">গোপনীয়তা নীতি</a></li>
+          <li><a href="terms.html">ব্যবহারের শর্তাবলি</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="currentYear">2026</span> <span data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</span>। <span data-i18n="footerRights">সর্বস্বত্ব সংরক্ষিত।</span></p>
+    </div>
+  </footer>
+
+  <a href="#" id="floatingWhatsAppBtn" class="floating-whatsapp" aria-label="হোয়াটসঅ্যাপ"><svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.062-2.18-.553-1.614-.668-2.67-2.316-2.75-2.423-.081-.106-.653-.872-.653-1.66 0-.789.412-1.177.558-1.336.146-.16.321-.2.428-.2.107 0 .214 0 .307.006.103.007.241-.039.376.287.144.348.49 1.196.533 1.284.043.088.072.19.014.305-.058.115-.087.187-.174.289-.088.102-.185.228-.264.306-.088.088-.18.183-.077.36.103.177.458.756.982 1.223.675.602 1.244.788 1.421.876.177.089.28.074.385-.047.105-.12.449-.523.57-.701.121-.178.241-.148.405-.088.164.06 1.042.492 1.22.58.178.089.297.133.34.208.043.076.043.438-.101.843z"/></svg></a>
+
+  <script src="js/config.js"></script>
+  <script src="js/jobs.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>

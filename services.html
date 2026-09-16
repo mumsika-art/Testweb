@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমাদের রিক্রুটিং সেবাসমূহ | সরকার অনুমোদিত ওভারসিজ ম্যানপাওয়ার এজেন্সি</title>
+  <meta name="description" content="আন্তর্জাতিক কর্মসংস্থান সেবা: দক্ষ কর্মী বাছাই, ট্রেড টেস্ট ও দক্ষতা যাচাই, ভিসা প্রসেসিং, বিদেশযাত্রাপূর্ব ওরিয়েন্টেশন এবং সম্পূর্ণ স্বচ্ছ রিক্রুটমেন্ট সমাধান।">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="lang-bn">
+
+  <!-- TOPBAR -->
+  <aside class="topbar" aria-label="অফিশিয়াল এজেন্সি নোটিশ ও যোগাযোগ বার">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <span data-i18n="topbarHotline">হটলাইন:</span>
+          <a href="contact.html" data-config="phone" data-config-link="phone">+৮৮০ ২-৯৮৭৬৫৪৩</a>
+        </span>
+        <span class="topbar-item">
+          <span data-i18n="topbarEmail">ইমেইল:</span>
+          <a href="contact.html" data-config="email" data-config-link="email">info@globalmanpower.gov.bd</a>
+        </span>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-item">
+          <span class="topbar-badge">
+            <span data-i18n="topbarRl">আরএল নং:</span>
+            <strong data-config="rlNumber">আরএল-১২৩৪</strong>
+          </span>
+        </span>
+        <div class="lang-switch" role="group" aria-label="ভাষা নির্বাচন">
+          <button type="button" class="lang-btn" data-action="set-lang" data-lang="en">EN</button>
+          <button type="button" class="lang-btn active" data-action="set-lang" data-lang="bn">বাংলা</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN HEADER -->
+  <header class="main-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo-wrapper">
+        <img src="images/logo.svg" alt="এজেন্সি লোগো" class="logo-img" width="180" height="48">
+      </a>
+
+      <nav class="main-nav" aria-label="প্রধান মেনু">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link" data-i18n="navHome">হোম</a></li>
+          <li><a href="about.html" class="nav-link" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+          <li><a href="jobs.html" class="nav-link" data-i18n="navJobs">চাকরির খবর</a></li>
+          <li><a href="services.html" class="nav-link active" data-i18n="navServices">সেবাসমূহ</a></li>
+          <li><a href="destinations.html" class="nav-link" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+          <li><a href="process.html" class="nav-link" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+          <li><a href="why-us.html" class="nav-link" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+          <li><a href="faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          <li><a href="transparency.html" class="nav-link" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+          <li><a href="contact.html" class="nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="jobs.html" class="btn btn-accent btn-sm" data-i18n="navApplyNow">আবেদন করুন</a>
+        <button type="button" id="mobileMenuBtn" class="mobile-toggle-btn" aria-label="মোবাইল মেনু খুলুন" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobileNavBackdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobileNavDrawer" class="mobile-nav-drawer" role="dialog" aria-modal="true">
+    <div class="mobile-drawer-header">
+      <span class="mobile-drawer-title" data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</span>
+      <button type="button" id="mobileMenuCloseBtn" class="mobile-close-btn">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="nav-link" data-i18n="navHome">হোম</a></li>
+      <li><a href="about.html" class="nav-link" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+      <li><a href="jobs.html" class="nav-link active" data-i18n="navJobs">চাকরির খবর</a></li>
+      <li><a href="services.html" class="nav-link active" data-i18n="navServices">সেবাসমূহ</a></li>
+      <li><a href="destinations.html" class="nav-link" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+      <li><a href="process.html" class="nav-link" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+      <li><a href="why-us.html" class="nav-link" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+      <li><a href="faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+      <li><a href="transparency.html" class="nav-link" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+      <li><a href="contact.html" class="nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <section style="background: linear-gradient(135deg, #0f1e36 0%, #1e293b 100%); color:#ffffff; padding:3.5rem 0;">
+      <div class="container">
+        <nav class="breadcrumb-bar" style="color:#94a3b8; margin-bottom:1rem;">
+          <a href="index.html" style="color:#cbd5e1;" data-i18n="navHome">হোম</a> &gt;
+          <span style="color:#ffffff;" data-i18n="navServices">সেবাসমূহ</span>
+        </nav>
+        <h1 style="font-size:2.5rem; font-weight:800; margin-bottom:0.75rem;">আমাদের রিক্রুটিং সেবাসমূহ</h1>
+        <p style="color:#cbd5e1; font-size:1.1rem; max-width:680px;">
+          প্রবাসী কল্যাণ মন্ত্রণালয় ও বিএমইটি-এর সকল বিধিবিধান অনুসরণ করে আন্তর্জাতিক শ্রমবাজারে নির্ভরযোগ্য, দক্ষ ও নৈতিক জনশক্তি প্রেরণ সেবা।
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="services-grid">
+          
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon-box">🌐</div>
+            <h2 class="service-title">আন্তর্জাতিক জনশক্তি রিক্রুটমেন্ট</h2>
+            <p class="service-desc">
+              অনুমোদিত ও সত্যায়িত সরকারি চাহিদাপত্র অনুযায়ী কারিগরি, দক্ষ, আধা-দক্ষ ও সাধারণ জনশক্তি নির্বাচন এবং আন্তর্জাতিক কর্মসংস্থানে প্রেরণ। আমরা প্রতিটি পদে স্বচ্ছ নিয়োগ বিজ্ঞপ্তি ও সঠিক তথ্য সরবরাহ করি।
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon-box">🔍</div>
+            <h2 class="service-title">প্রার্থী বাছাই ও কারিগরি দক্ষতা যাচাই (ট্রেড টেস্ট)</h2>
+            <p class="service-desc">
+              প্রার্থীদের শিক্ষাগত ও কারিগরি সনদ, পাসপোর্ট বৈধতা এবং বাস্তব কর্মদক্ষতার সামগ্রিক মূল্যায়ন। নিজস্ব ওয়ার্কশপে ইলেকট্রিক্যাল, ওয়েল্ডিং, প্লাম্বিং, মেশিনিস্ট ও নির্মাণ কাজের প্র্যাকটিক্যাল টেস্ট গ্রহণ।
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon-box">📋</div>
+            <h2 class="service-title">ভিসা প্রসেসিং ও ডকুমেন্টেশন সহায়তা</h2>
+            <p class="service-desc">
+              অফিসিয়াল ডকুমেন্টস সত্যায়ন, পুলিশ ক্লিয়ারেন্স সার্টিফিকেট সংগ্রহ, গামকা (GAMCA) অনুমোদিত মেডিকেল পরীক্ষা এবং সংশ্লিষ্ট দেশের দূতাবাস ও কনস্যুলেটের ভিসা আবেদনের সম্পূর্ণ আইনানুগ প্রক্রিয়া সম্পন্নকরণ।
+            </p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon-box">🤝</div>
+            <h2 class="service-title">সাক্ষাৎকার ও নিয়োগকর্তা সমন্বয়</h2>
+            <p class="service-desc">
+              বিদেশি নিয়োগকারী ডেলিগেশনের সরাসরি সাক্ষাৎকার, ভার্চুয়াল ভিডিও ইন্টারভিউ এবং অন-সাইট প্র্যাকটিক্যাল টেস্ট আয়োজন। প্রার্থীদের সাক্ষাৎকারের পূর্বপ্রস্তুতি ও প্রয়োজনীয় দিকনির্দেশনা প্রদান।
+            </p>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card">
+            <div class="service-icon-box">✈️</div>
+            <h2 class="service-title">বিদেশযাত্রাপূর্ব ওরিয়েন্টেশন ও ব্রিফিং (পিডিও)</h2>
+            <p class="service-desc">
+              বিদেশে গমনের পূর্বে শ্রম আইন, সংস্কৃতি ও রীতিনীতি, কর্মক্ষেত্রের নিরাপত্তা বিধি, প্রাথমিক ভাষা শিক্ষা এবং যেকোনো জরুরি অবস্থায় বাংলাদেশ দূতাবাসের সহায়তা গ্রহণের বিস্তারিত প্রশিক্ষণ প্রদান।
+            </p>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card">
+            <div class="service-icon-box">🏢</div>
+            <h2 class="service-title">নিয়োগকারী প্রতিষ্ঠানের জন্য করপোরেট সাপোর্ট</h2>
+            <p class="service-desc">
+              আন্তর্জাতিক কোম্পানি ও মাল্টিন্যাশনাল নিয়োগকারীদের জন্য বাংলাদেশ লেবার অ্যাটাশে সত্যায়ন, দ্রুত মোবিলাইজেশন শিডিউল এবং দক্ষ কর্মী দলের পূর্ণাঙ্গ প্রোফাইল তৈরির ওয়ান-স্টপ সেবা।
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Service Disclaimer Box -->
+        <div style="margin-top:3.5rem; background-color:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:2rem;">
+          <h3 style="font-size:1.15rem; color:#0f1e36; font-weight:700; margin-bottom:0.5rem;">আইনগত ও নিয়ন্ত্রক নির্দেশনা</h3>
+          <p style="color:#64748b; font-size:0.92rem; line-height:1.6;">
+            আমাদের সকল রিক্রুটমেন্ট কার্যক্রম জনশক্তি কর্মসংস্থান ও প্রশিক্ষণ ব্যুরো (BMET) এবং প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের নীতিমালার অধীনে পরিচালিত হয়। আমরা কোনো ধরনের অননুমোদিত ফি বা অতিরিক্ত অর্থ গ্রহণ করি না এবং কোনো অবৈধ প্রক্রিয়ার সাথে জড়িত নই।
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col-about">
+        <h4 data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</h4>
+        <p data-i18n="footerDisclaimer">চাকরির প্রাপ্যতা, বেতন এবং শর্তাবলি নিয়োগকারী দেশের শ্রম আইন এবং কোম্পানির চাহিদাপত্রের ওপর নির্ভরশীল।</p>
+        <div class="footer-rl-badge">আরএল নং: <strong data-config="rlNumber">আরএল-১২৩৪</strong></div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footerLinksTitle">প্রয়োজনীয় লিংক</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html" data-i18n="navHome">হোম</a></li>
+          <li><a href="about.html" data-i18n="navAbout">আমাদের সম্পর্কে</a></li>
+          <li><a href="jobs.html" data-i18n="navJobs">চাকরির খবর</a></li>
+          <li><a href="services.html" data-i18n="navServices">সেবাসমূহ</a></li>
+          <li><a href="destinations.html" data-i18n="navDestinations">গন্তব্য দেশ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footerSupportTitle">প্রার্থী সহায়তা</h4>
+        <ul class="footer-links-list">
+          <li><a href="process.html" data-i18n="navProcess">কাজের প্রক্রিয়া</a></li>
+          <li><a href="why-us.html" data-i18n="navWhyUs">আমাদের বৈশিষ্ট্য</a></li>
+          <li><a href="faq.html" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          <li><a href="transparency.html" data-i18n="navTransparency">প্রতারণা সচেতনতা</a></li>
+          <li><a href="contact.html" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>আইন ও নীতিমালা</h4>
+        <ul class="footer-links-list">
+          <li><a href="privacy-policy.html">গোপনীয়তা নীতি</a></li>
+          <li><a href="terms.html">ব্যবহারের শর্তাবলি</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="currentYear">2026</span> <span data-config="agencyName">গ্লোবাল রিক্রুটিং অ্যান্ড ওভারসিজ ম্যানপাওয়ার</span>। <span data-i18n="footerRights">সর্বস্বত্ব সংরক্ষিত।</span></p>
+    </div>
+  </footer>
+
+  <a href="#" id="floatingWhatsAppBtn" class="floating-whatsapp" aria-label="হোয়াটসঅ্যাপ"><svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.062-2.18-.553-1.614-.668-2.67-2.316-2.75-2.423-.081-.106-.653-.872-.653-1.66 0-.789.412-1.177.558-1.336.146-.16.321-.2.428-.2.107 0 .214 0 .307.006.103.007.241-.039.376.287.144.348.49 1.196.533 1.284.043.088.072.19.014.305-.058.115-.087.187-.174.289-.088.102-.185.228-.264.306-.088.088-.18.183-.077.36.103.177.458.756.982 1.223.675.602 1.244.788 1.421.876.177.089.28.074.385-.047.105-.12.449-.523.57-.701.121-.178.241-.148.405-.088.164.06 1.042.492 1.22.58.178.089.297.133.34.208.043.076.043.438-.101.843z"/></svg></a>
+
+  <script src="js/config.js"></script>
+  <script src="js/jobs.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>
